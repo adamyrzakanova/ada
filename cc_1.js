@@ -14,3 +14,16 @@ var isAvailable = true;
 console.log(typeof productName);
 console.log(typeof productPrice);   
 console.log(typeof isAvailable);
+
+// task 3
+let accountBalance = "100";
+accountBalance += 100;
+console.log(accountBalance);
+accountBalance -= 50
+console.log(accountBalance)
+accountBalance *= 4
+console.log(accountBalance)
+accountBalance /= 6
+console.log(accountBalance)
+accountBalance %= 10
+console.log(accountBalance)
