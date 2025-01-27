@@ -33,3 +33,9 @@ let customareName = "name_of_customer";
 let welcomeMessage = "Welcome to our store, + customareName + !"; 
 console.log(welcomeMessage + customareName);
 
+// task 5
+let isLoggedIn = true;
+let hasAccess = isLoggedIn && isAvailable;
+
+console.log("User login status: " + isLoggedIn);
+console.log("Access to the store: " + hasAccess);
